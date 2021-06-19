@@ -1,4 +1,4 @@
-# arch-travis [![Travis BuildStatus](https://travis-ci.org/mikkeloscar/arch-travis.svg?branch=master)](https://travis-ci.org/mikkeloscar/arch-travis)
+# arch-travis [![Travis BuildStatus](https://travis-ci.org/fsquillace/arch-travis.svg?branch=master)](https://travis-ci.com/fsquillace/arch-travis)
 
 arch-travis provides a docker based Arch Linux build environment for
 [Travis-CI][travis-ci] builds. It supports a very simple (and limited)
@@ -30,7 +30,7 @@ archlinux:
   - "./build_script.sh"
 
 script:
-- "curl -s https://raw.githubusercontent.com/mikkeloscar/arch-travis/master/arch-travis.sh | bash"
+- "curl -s https://raw.githubusercontent.com/fsquillace/arch-travis/master/arch-travis.sh | bash"
 ```
 
 `arch.repos` defines a list of custom repositories.
