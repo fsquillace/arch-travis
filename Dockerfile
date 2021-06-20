@@ -2,7 +2,7 @@
 #
 #     docker build --rm=true -t feel/arch-travis .
 
-FROM archlinux:latest
+FROM lopsided/archlinux:latest
 MAINTAINER Oscar Lyderik Larsen <m@moscar.net>
 
 # copy sudoers file
